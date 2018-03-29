@@ -10,7 +10,7 @@ const io = require('socket.io')(server, {
 });
 
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://username:password@ds113849.mlab.com:13849/chatapp');
+var db = mongojs('mongodb://turganbay:turboturbo92@ds113849.mlab.com:13849/chatapp');
 
 server.listen(port, () => { console.log(`listening on port ${port}`)});
  // parse application/x-www-form-urlencoded
